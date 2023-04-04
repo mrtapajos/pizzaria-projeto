@@ -1,0 +1,196 @@
+body {
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+/* .image {
+    width: 150px
+} */
+
+.logo-image {
+    height: 50px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    position: calc(100% - 40px);
+    list-style: none;
+    font-size: 30px;
+    border-bottom: 0.4px solid black;
+    padding: 20px;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: brown
+}
+
+a:hover {
+    color: #E39F46;
+    transition: 0.3s;
+}
+
+
+.sessao-superior {
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 100%;
+    padding: 10px;
+    background-image: url('imagens/banner-pizza.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sessao-superior h1 {
+    font-size: 50px;
+}
+
+.sessao-superior-text {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    left: 50px;
+}
+
+.sessao-inferior {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    max-width: 50%;
+    border-bottom: 0.4px solid black;
+    padding-bottom: 30px;
+}
+
+.sessao-inferior h1 {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace, Geneva, Verdana, sans-serif;
+}
+.sessao-inferior p {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+#cardapio {
+    padding: 10px;
+    padding-bottom: 30px;
+}
+
+#cardapio h1 {
+    text-align: center;
+    font-size: 50px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+table {
+    margin: 0 auto;
+    border: 3px solid black;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+th {
+    /* background-color: rgb(138, 138, 251); */
+    background-color: rgb(170, 98, 98);
+    color: white;
+}
+
+tr:nth-child(odd){
+    background-color: rgb(237, 237, 237);
+}
+
+.pizza-sabor {
+    font-size: 24px;
+}
+.pizza-desc {
+    font-style: italic;
+}
+
+tr > td {
+    padding: 5px;
+} 
+
+footer {
+    background-color: rgb(231, 215, 195);
+    color: black;
+
+}
+
+#contatos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#contatos h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+}
+
+.lista-contatos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 15px;
+    font-style: italic;
+}
+
+#endereco {
+    font-size: 20px;
+    justify-content: center;
+}
+
+#endereco h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+/* ----------- ANIMAÇAO UNDERLINE -----------  */
+
+/* .w3rcontainer{
+    border: 1px solid 
+     #cccfdb;
+    border-radius: 2px;
+ }  */
+
+ /* #navegacao li {
+    display: inline-block;
+    position: relative;
+    color: #0087ca;    
+ }
+ 
+#navegacao li:after {
+   content: '';
+   position: absolute;
+   width: 100%;
+   transform: scaleX(0);
+   height: 2px;
+   bottom: 0;
+   left: 0;
+   background-color:  #0087ca;
+   transform-origin: bottom right;
+   transition: transform 0.25s ease-out;
+ }
+ 
+ #navegacao li:after {
+   transform: scaleX(1);
+   transform-origin: bottom left;
+ } */

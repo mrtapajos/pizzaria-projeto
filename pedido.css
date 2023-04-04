@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    height: 100vh;
+    background-image: linear-gradient(45deg, burlywood, rgb(159, 72, 72));
+}
+
+.sub-content {
+    /* background-color: rgb(100, 100, 244); */
+    text-align: center;
+    position: relative;
+    padding: 5rem;
+    font-size: 35px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    margin-bottom: 3rem;
+}
+
+.logo-image {
+    height: 50px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    position: calc(100% - 40px);
+    list-style: none;
+    font-size: 30px;
+    border-bottom: 0.4px solid black;
+    padding: 20px;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: #5E421D
+}
+
+/* nav:last-child a {
+    color: #E39F46
+} */
+
+a:hover {
+    color: #E39F46;
+    transition: 0.3s;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    padding: 20px;
+}
+
+fieldset {
+    margin: 0 auto;
+    max-width: 900px;
+    border-radius: 3px;
+    border: 3px solid #5E421D;
+    background-color: rgba(0, 0, 0, .1);
+}
+
+legend {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    background-color: #5E421D;
+    border-radius: 8px;
+    padding: 7px
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-box {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+.user-input {
+    padding: 1rem;
+    border: none;
+    border-bottom: 1px solid #5E421D;
+    border-radius: 3px;
+    background: none;
+    outline: none;
+    color: #5E421D;
+}
+
+.input-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 1rem;
+    pointer-events: none;
+    transition: all 0.2s ease-out;
+    color: white;
+    font-weight: 800;
+}
+
+.user-input:focus ~ .input-label,
+.user-input:valid ~ .input-label {
+    top: -35px;
+    left: -5px;
+    font-size: 0.9rem;
+    transition: 0.3s;
+    color: #5E421D
+}
+
+.pizza-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    color: white
+}
+
+.info-label {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+select {
+    margin-left: 2rem;
+}

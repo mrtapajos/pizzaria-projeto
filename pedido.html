@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fazer Pedido</title>
+    <link rel="stylesheet" href="pedido.css">
+</head>
+
+<body>
+    <header>
+        <nav id="navegacao">
+            <img class="logo-image" src="imagens/pizza-logo.png" alt="pizza">
+            <li><a href="pizza.html">HOME</a></li>
+            <li><a href="pizza.html#cardapio">CARDÁPIO</a></li>
+            <li><a href="pizza.html#contatos">CONTATO</a></li>
+            <li><a href="#">PEDIDO</a></li>
+        </nav>
+    </header>
+
+    <main>
+        <section class="sub-content">
+            <h1>SEU PEDIDO É UMA ORDEM!</h1>
+        </section>
+        <fieldset>
+            <legend>PEDIDO</legend>
+            <form>
+                <div class="data">
+                    <div class="input-box">
+                        <input class="user-input" id="nome" name="nome" type="text" required>
+                        <label class="input-label" for="nome">Nome</label>
+                    </div>
+        
+                    <div class="input-box">
+                        <input class="user-input" type="tel" name="telefone" id="telefone" required>
+                        <label class="input-label" for="telefone">Telefone</label>
+                    </div>
+                    <div class="input-box">
+                        <input class="user-input" type="text" name="endereco" id="endereco" required>
+                        <label class="input-label" for="endereco">Endereço</label>
+                    </div>
+                </div>
+                <div class="pizza-info">
+                    <div class="sabor-pizza">
+                        <label class="info-label">Escolha o sabor da pizza:</label>
+                        <select required>
+                            <option value="" disabled selected>Selecione</option>
+                            <option value="4-queijos">Quatro Queijos</option>
+                            <option value="calabresa">Calabresa</option>
+                            <option value="frango-catupiry">Frango & Catupiry</option>
+                            <option value="margarita">Margarita</option>
+                            <option value="pepperoni">Pepperoni</option>
+                            <option value="portuguesa">Portuguesa</option>
+                        </select>
+                    </div>
+                    <div class="tamanho-pizza">
+                        <label class="info-label">Escolha o tamanho da pizza:</label>
+                        <input required type="radio" name="tamanho-pizza" value="p">
+                        <label for="p">P</label>
+                        <input required type="radio" name="tamanho-pizza" value="m">
+                        <label for="m">M</label>
+                        <input required type="radio" name="tamanho-pizza" value="g">
+                        <label for="g">G</label>
+                    </div>
+                    <div class="extra">
+                        <h4>Molhos extra (opcional)</h4>
+                         <input type="checkbox" name="ketchup" id="ketchup">
+                         <label for="ketchup">Ketchup</label>
+                         <input type="checkbox" name="maionese" id="maionese">
+                         <label for="maionese">Maionese</label>
+                         <input type="checkbox" name="mostarda" id="mostarda">
+                         <label for="mostarda">Mostarda</label>
+                    </div>
+                    <input type="submit" value="Finalizar pedido">
+                </div>
+            </form>
+        </fieldset>
+    </main>
+</body>
+</html>
