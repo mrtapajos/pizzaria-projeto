@@ -5,9 +5,6 @@ body {
     flex-direction: column;
 }
 
-/* .image {
-    width: 150px
-} */
 
 .logo-image {
     height: 50px;
@@ -46,7 +43,7 @@ a:hover {
     height: 400px;
     width: 100%;
     padding: 10px;
-    background-image: url('imagens/banner-pizza.png');
+    background-image: url('../imagens/banner-pizza.png');
     background-repeat: no-repeat;
     background-size: cover;
 }

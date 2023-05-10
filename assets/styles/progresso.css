@@ -1,0 +1,30 @@
+body {
+    background-image: linear-gradient(45deg, burlywood, rgb(159, 72, 72));
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+#titulo {
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+.pedido-container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #9a827e;
+    width: 20%;
+    border-radius: 5px;
+    padding: 4px;
+    text-align: center; 
+    height: 15%;
+}
+
+#progress-bar {
+    height: 10%;
+    background-color: #7289da;
+  }

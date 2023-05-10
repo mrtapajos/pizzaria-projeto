@@ -15,7 +15,6 @@ main {
 }
 
 .sub-content {
-    /* background-color: rgb(100, 100, 244); */
     text-align: center;
     position: relative;
     padding: 5rem;
@@ -49,9 +48,6 @@ nav a {
     color: #5E421D
 }
 
-/* nav:last-child a {
-    color: #E39F46
-} */
 
 a:hover {
     color: #E39F46;
@@ -119,7 +115,7 @@ legend {
 .user-input:valid ~ .input-label {
     top: -35px;
     left: -5px;
-    font-size: 0.9rem;
+    font-size: .9rem;
     transition: 0.3s;
     color: #5E421D
 }
@@ -151,7 +147,7 @@ select {
 }
 
 #submit {
-    width: 60%;
+    width: 100%;
     background-color: #5E421D;
     border: none;
     border-radius: 3px;
@@ -166,4 +162,5 @@ select {
     background: none;
     color: #5E421D;
     transition: .3s;
+    cursor: pointer;
 }
